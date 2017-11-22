@@ -63,4 +63,8 @@
         }
     });
 
+    document.getElementById('panorama').addEventListener('click',function (e) {
+        console.log(e.target);
+    })
+
 })();
